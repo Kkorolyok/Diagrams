@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-12T12:42:43.230Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="pWeFILC0THwF6Huiag8p" version="20.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-12T13:43:00.715Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="p-NEu8UaOaHeAshe3hH7" version="20.8.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1475" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1199" dy="640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -53,8 +53,8 @@
         <mxCell id="G9nCzdTo4ISETFCfbKnU-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;startArrow=ERmandOne;startFill=0;endArrow=ERoneToMany;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G9nCzdTo4ISETFCfbKnU-7" target="G9nCzdTo4ISETFCfbKnU-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="G9nCzdTo4ISETFCfbKnU-7" value="Менеджер" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="320" y="1580" width="160" height="60" as="geometry">
+        <mxCell id="G9nCzdTo4ISETFCfbKnU-7" value="Пользователь от дилерского центра&#xa;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="250" y="1580" width="230" height="60" as="geometry">
             <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -95,7 +95,7 @@
           <mxGeometry x="90" y="870" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="G9nCzdTo4ISETFCfbKnU-16" value="У одной сделки может быть один менеджер (пока беру такой случай, возможно менеджеров может быть несколько).&amp;nbsp;&lt;br&gt;У одного менеджера может быть много сделок" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="190" y="1460" width="200" height="30" as="geometry" />
+          <mxGeometry x="170" y="1460" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="G9nCzdTo4ISETFCfbKnU-18" value="Один менеджер относится к одному дилерскому центру.&lt;br&gt;(?) Возможно менеджеры. могут относиться к нескольким центрам&lt;br&gt;У одного дилерского центра может быть много менеджеров" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="510" y="1560" width="200" height="30" as="geometry" />
@@ -134,7 +134,7 @@
         <mxCell id="G9nCzdTo4ISETFCfbKnU-35" value="&lt;div style=&quot;text-align: left;&quot;&gt;У одного ответа может быть много продуктов.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Один продукт может относиться ко многим продуктам.&amp;nbsp;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1670" y="1420" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="G9nCzdTo4ISETFCfbKnU-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;startArrow=ERoneToMany;startFill=0;endArrow=ERoneToMany;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G9nCzdTo4ISETFCfbKnU-36" target="G9nCzdTo4ISETFCfbKnU-38">
+        <mxCell id="G9nCzdTo4ISETFCfbKnU-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;startArrow=ERoneToMany;startFill=0;endArrow=ERone;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G9nCzdTo4ISETFCfbKnU-36" target="G9nCzdTo4ISETFCfbKnU-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="G9nCzdTo4ISETFCfbKnU-36" value="Продукт" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -147,8 +147,8 @@
             <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G9nCzdTo4ISETFCfbKnU-39" value="&lt;div style=&quot;text-align: left;&quot;&gt;У одного продукта может быть много категорий продукта (? предположение, нужно уточнить).&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;У одной категории может быть много продуктов.&amp;nbsp;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1560" y="1560" width="200" height="30" as="geometry" />
+        <mxCell id="G9nCzdTo4ISETFCfbKnU-39" value="&lt;div style=&quot;text-align: left;&quot;&gt;У одного продукта может быть одна категория. &amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;У одной категории может быть много продуктов.&amp;nbsp;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1570" y="1570" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="G9nCzdTo4ISETFCfbKnU-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;startArrow=ERoneToMany;startFill=0;endArrow=ERoneToMany;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G9nCzdTo4ISETFCfbKnU-41" target="G9nCzdTo4ISETFCfbKnU-36">
           <mxGeometry relative="1" as="geometry" />
@@ -163,23 +163,6 @@
         </mxCell>
         <mxCell id="G9nCzdTo4ISETFCfbKnU-45" value="&lt;div style=&quot;text-align: left;&quot;&gt;К одной сделке относится один пакет продуктов.&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Один пакет продуктов может относиться ко многим сделкам.&amp;nbsp;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="600" y="1420" width="200" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="G9nCzdTo4ISETFCfbKnU-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=ERoneToMany;startFill=0;endArrow=ERmandOne;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G9nCzdTo4ISETFCfbKnU-47" target="G9nCzdTo4ISETFCfbKnU-7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="G9nCzdTo4ISETFCfbKnU-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=ERoneToMany;startFill=0;endArrow=ERmandOne;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G9nCzdTo4ISETFCfbKnU-47" target="G9nCzdTo4ISETFCfbKnU-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="G9nCzdTo4ISETFCfbKnU-47" value="Отчёт" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="320" y="1800" width="160" height="60" as="geometry">
-            <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="G9nCzdTo4ISETFCfbKnU-48" value="&lt;div style=&quot;text-align: left;&quot;&gt;У одного отчёта может быть один менеджер (отчёты по менеджерам).&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;По одному менеджеру может быть много отчётов&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="190" y="1710" width="200" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="G9nCzdTo4ISETFCfbKnU-49" value="&lt;div style=&quot;text-align: left;&quot;&gt;У одного отчёта может быть один дилерский центр.&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;По одному центру может быть много отчётов.&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;(?) Возможно в одном отчёте может содержаться информация о нескольких центрах.&amp;nbsp;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="550" y="1760" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="G9nCzdTo4ISETFCfbKnU-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=ERoneToMany;startFill=0;endArrow=ERoneToMany;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G9nCzdTo4ISETFCfbKnU-53" target="G9nCzdTo4ISETFCfbKnU-4">
           <mxGeometry relative="1" as="geometry" />
@@ -197,9 +180,6 @@
         </mxCell>
         <mxCell id="G9nCzdTo4ISETFCfbKnU-59" value="&lt;div style=&quot;text-align: left;&quot;&gt;У одной формы опросника может быть один тип сделки.&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;(? возможно много типов)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;У одного типа сделки может быть много опросников.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="540" y="870" width="200" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="G9nCzdTo4ISETFCfbKnU-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.352;entryY=1.169;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=ERmandOne;startFill=0;endArrow=ERoneToMany;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G9nCzdTo4ISETFCfbKnU-33" target="G9nCzdTo4ISETFCfbKnU-33">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
