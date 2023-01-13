@@ -1,26 +1,29 @@
-<mxfile host="app.diagrams.net" modified="2023-01-12T13:43:00.715Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="p-NEu8UaOaHeAshe3hH7" version="20.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-13T10:08:12.835Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="GQjpcuDGOJSJ170DBptq" version="20.8.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1199" dy="640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2131" dy="1138" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="G9nCzdTo4ISETFCfbKnU-3" value="Заполненный опросник" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="740" y="1275" width="160" height="60" as="geometry">
+        <mxCell id="G9nCzdTo4ISETFCfbKnU-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=ERone;startFill=0;endArrow=ERoneToMany;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G9nCzdTo4ISETFCfbKnU-3" target="G9nCzdTo4ISETFCfbKnU-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G9nCzdTo4ISETFCfbKnU-3" value="Заполненный опросник" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="790" y="1275" width="160" height="60" as="geometry">
             <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G9nCzdTo4ISETFCfbKnU-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERmandOne;startFill=0;endArrow=ERoneToMany;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G9nCzdTo4ISETFCfbKnU-4" target="G9nCzdTo4ISETFCfbKnU-3">
+        <mxCell id="G9nCzdTo4ISETFCfbKnU-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERmandOne;startFill=0;endArrow=ERzeroToMany;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G9nCzdTo4ISETFCfbKnU-4" target="G9nCzdTo4ISETFCfbKnU-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="G9nCzdTo4ISETFCfbKnU-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;startArrow=ERmandOne;startFill=0;endArrow=ERoneToMany;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G9nCzdTo4ISETFCfbKnU-4" target="G9nCzdTo4ISETFCfbKnU-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="G9nCzdTo4ISETFCfbKnU-4" value="Форма опросника" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1000" y="1150" width="160" height="60" as="geometry">
+        <mxCell id="G9nCzdTo4ISETFCfbKnU-4" value="Форма опросника" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1020" y="1065" width="160" height="60" as="geometry">
             <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G9nCzdTo4ISETFCfbKnU-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;startArrow=ERmandOne;startFill=0;endArrow=ERoneToMany;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G9nCzdTo4ISETFCfbKnU-5" target="G9nCzdTo4ISETFCfbKnU-9">
+        <mxCell id="G9nCzdTo4ISETFCfbKnU-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;startArrow=ERmandOne;startFill=0;endArrow=ERzeroToMany;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G9nCzdTo4ISETFCfbKnU-5" target="G9nCzdTo4ISETFCfbKnU-9">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="120" y="930" />
@@ -29,10 +32,19 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="G9nCzdTo4ISETFCfbKnU-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;startArrow=ERmandOne;startFill=0;endArrow=ERoneToMany;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G9nCzdTo4ISETFCfbKnU-5" target="G9nCzdTo4ISETFCfbKnU-4">
+        <mxCell id="G9nCzdTo4ISETFCfbKnU-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;startArrow=ERoneToMany;startFill=0;endArrow=ERzeroToMany;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G9nCzdTo4ISETFCfbKnU-5" target="G9nCzdTo4ISETFCfbKnU-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="G9nCzdTo4ISETFCfbKnU-5" value="Тип сделки" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="G9nCzdTo4ISETFCfbKnU-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERzeroToMany;startFill=0;endArrow=ERzeroToMany;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G9nCzdTo4ISETFCfbKnU-5" target="G9nCzdTo4ISETFCfbKnU-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="710" />
+              <mxPoint x="2030" y="710" />
+              <mxPoint x="2030" y="1490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G9nCzdTo4ISETFCfbKnU-5" value="Тип сделки" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="310" y="900" width="160" height="60" as="geometry">
             <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
           </mxGeometry>
@@ -42,144 +54,140 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G9nCzdTo4ISETFCfbKnU-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;startArrow=ERmandOne;startFill=0;endArrow=ERoneToMany;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G9nCzdTo4ISETFCfbKnU-6" target="G9nCzdTo4ISETFCfbKnU-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="G9nCzdTo4ISETFCfbKnU-6" value="Клиент" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="G9nCzdTo4ISETFCfbKnU-6" value="Клиент" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="350" y="1040" width="160" height="60" as="geometry">
             <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G9nCzdTo4ISETFCfbKnU-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;startArrow=ERmandOne;startFill=0;endArrow=ERoneToMany;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G9nCzdTo4ISETFCfbKnU-7" target="G9nCzdTo4ISETFCfbKnU-9">
+        <mxCell id="G9nCzdTo4ISETFCfbKnU-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;startArrow=ERmandOne;startFill=0;endArrow=ERzeroToMany;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G9nCzdTo4ISETFCfbKnU-7" target="G9nCzdTo4ISETFCfbKnU-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="G9nCzdTo4ISETFCfbKnU-7" value="Пользователь от дилерского центра&#xa;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="250" y="1580" width="230" height="60" as="geometry">
+        <mxCell id="G9nCzdTo4ISETFCfbKnU-7" value="Пользователь от дилерского центра&#xa;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="285" y="1620" width="230" height="60" as="geometry">
             <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G9nCzdTo4ISETFCfbKnU-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;startArrow=ERmandOne;startFill=0;endArrow=ERoneToMany;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G9nCzdTo4ISETFCfbKnU-8" target="G9nCzdTo4ISETFCfbKnU-7">
+        <mxCell id="G9nCzdTo4ISETFCfbKnU-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;startArrow=ERmandOne;startFill=0;endArrow=ERzeroToMany;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G9nCzdTo4ISETFCfbKnU-8" target="G9nCzdTo4ISETFCfbKnU-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="G9nCzdTo4ISETFCfbKnU-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;startArrow=ERoneToMany;startFill=0;endArrow=ERoneToMany;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G9nCzdTo4ISETFCfbKnU-8" target="G9nCzdTo4ISETFCfbKnU-36">
+        <mxCell id="G9nCzdTo4ISETFCfbKnU-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;startArrow=ERzeroToMany;startFill=0;endArrow=ERzeroToMany;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G9nCzdTo4ISETFCfbKnU-8" target="G9nCzdTo4ISETFCfbKnU-36">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1320" y="1610" />
+              <mxPoint x="1320" y="1665" />
               <mxPoint x="1320" y="1505" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="G9nCzdTo4ISETFCfbKnU-8" value="Дилерский центр" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="740" y="1580" width="160" height="60" as="geometry">
+        <mxCell id="G9nCzdTo4ISETFCfbKnU-8" value="Дилерский центр" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="810" y="1620" width="160" height="60" as="geometry">
             <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="G9nCzdTo4ISETFCfbKnU-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERmandOne;startFill=0;endArrow=ERmandOne;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G9nCzdTo4ISETFCfbKnU-9" target="G9nCzdTo4ISETFCfbKnU-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="G9nCzdTo4ISETFCfbKnU-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;startArrow=ERoneToMany;startFill=0;endArrow=ERmandOne;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G9nCzdTo4ISETFCfbKnU-9" target="G9nCzdTo4ISETFCfbKnU-41">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="G9nCzdTo4ISETFCfbKnU-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=ERzeroToMany;startFill=0;endArrow=ERoneToMany;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G9nCzdTo4ISETFCfbKnU-9" target="G9nCzdTo4ISETFCfbKnU-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="1410" />
+              <mxPoint x="1450" y="1410" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="G9nCzdTo4ISETFCfbKnU-9" value="Сделка" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="G9nCzdTo4ISETFCfbKnU-9" value="Сделка" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="360" y="1275" width="160" height="60" as="geometry">
             <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G9nCzdTo4ISETFCfbKnU-11" value="У одного клиента может быть несколько сделок" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="180" y="1120" width="150" height="30" as="geometry" />
+        <mxCell id="G9nCzdTo4ISETFCfbKnU-11" value="Каждая сделка привязана &amp;nbsp;к определенному клиенту.&amp;nbsp;&lt;br&gt;Клиент может совершать неограниченное количество сделок.&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="150" y="1110" width="170" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="G9nCzdTo4ISETFCfbKnU-12" value="У одной сделки может быть только один клиент&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="180" y="1160" width="150" height="30" as="geometry" />
+        <mxCell id="G9nCzdTo4ISETFCfbKnU-13" value="Каждая сделка относится к определенному типу.&lt;br&gt;По каждому типу сделку может быть создано неограниченное количество сделок.&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="90" y="820" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="G9nCzdTo4ISETFCfbKnU-13" value="У одной сделки может быть один тип сделки.&amp;nbsp;&lt;br&gt;У одного типа сделки может быть много сделок.&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="90" y="870" width="200" height="30" as="geometry" />
+        <mxCell id="G9nCzdTo4ISETFCfbKnU-16" value="Считаем, что сделку может вести только один менеджер, или пользователь дилерского центра.&lt;br&gt;(?) Возможно несколько.&amp;nbsp;&lt;br&gt;Менеджер может вести несколько сделок.&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="190" y="1420" width="200" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="G9nCzdTo4ISETFCfbKnU-16" value="У одной сделки может быть один менеджер (пока беру такой случай, возможно менеджеров может быть несколько).&amp;nbsp;&lt;br&gt;У одного менеджера может быть много сделок" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="170" y="1460" width="200" height="30" as="geometry" />
+        <mxCell id="G9nCzdTo4ISETFCfbKnU-18" value="Один менеджер относится к одному дилерскому центру.&lt;br&gt;(?) Возможно менеджеры. могут относиться к нескольким центрам&lt;br&gt;В дилерском центре может быть много пользователей.&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="570" y="1540" width="200" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="G9nCzdTo4ISETFCfbKnU-18" value="Один менеджер относится к одному дилерскому центру.&lt;br&gt;(?) Возможно менеджеры. могут относиться к нескольким центрам&lt;br&gt;У одного дилерского центра может быть много менеджеров" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="510" y="1560" width="200" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="G9nCzdTo4ISETFCfbKnU-21" value="У одной сделки один заполненный опросник.&amp;nbsp;&lt;br&gt;У одного заполненного опросника одна сделка.&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="530" y="1250" width="200" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="G9nCzdTo4ISETFCfbKnU-22" value="&lt;div style=&quot;text-align: left;&quot;&gt;У одного заполненного опросника один клиент.&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;У одного клиента может быть много опросников. .&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="580" y="1020" width="200" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="G9nCzdTo4ISETFCfbKnU-28" value="&lt;div style=&quot;text-align: left;&quot;&gt;У одного заполненного опросника одна форма опросника.&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;У одной формы опросника может быть много заполненных опросников.&amp;nbsp;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="960" y="1245" width="200" height="30" as="geometry" />
+        <mxCell id="G9nCzdTo4ISETFCfbKnU-21" value="К каждой сделке прилагается заполненный опросник. Заполненные опросники уникальны и привязаны к определенной сделке.&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="560" y="1220" width="200" height="70" as="geometry" />
         </mxCell>
         <mxCell id="G9nCzdTo4ISETFCfbKnU-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;startArrow=ERmandOne;startFill=0;endArrow=ERoneToMany;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G9nCzdTo4ISETFCfbKnU-29" target="G9nCzdTo4ISETFCfbKnU-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="G9nCzdTo4ISETFCfbKnU-29" value="Вопросы" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1310" y="1150" width="160" height="60" as="geometry">
+        <mxCell id="G9nCzdTo4ISETFCfbKnU-29" value="Вопросы" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1420" y="1065" width="160" height="60" as="geometry">
             <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G9nCzdTo4ISETFCfbKnU-30" value="&lt;div style=&quot;text-align: left;&quot;&gt;У одной формы опросника может быть много вопросов.&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;У одного вопроса может быть одна форма опросника (вопросы считаем уникальными, без справочника)&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1170" y="1100" width="200" height="30" as="geometry" />
+        <mxCell id="G9nCzdTo4ISETFCfbKnU-30" value="&lt;div style=&quot;text-align: left;&quot;&gt;В форме опросника можно указать большое количество вопросов.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Считаем, что администратор создаёт уникальные &amp;nbsp;вопросы для опросника (без справочника вопросов)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1210" y="950" width="200" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="G9nCzdTo4ISETFCfbKnU-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;startArrow=ERoneToMany;startFill=0;endArrow=ERoneToMany;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G9nCzdTo4ISETFCfbKnU-32" target="G9nCzdTo4ISETFCfbKnU-36">
+        <mxCell id="G9nCzdTo4ISETFCfbKnU-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;startArrow=ERzeroToMany;startFill=0;endArrow=ERoneToMany;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G9nCzdTo4ISETFCfbKnU-32" target="G9nCzdTo4ISETFCfbKnU-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="G9nCzdTo4ISETFCfbKnU-32" value="Ответы" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1700" y="1150" width="160" height="60" as="geometry">
+        <mxCell id="G9nCzdTo4ISETFCfbKnU-32" value="Варианты ответов" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1800" y="1065" width="160" height="60" as="geometry">
             <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G9nCzdTo4ISETFCfbKnU-33" value="&lt;div style=&quot;text-align: left;&quot;&gt;У одного вопроса может быть много ответов.&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;У одного ответа может быть один вопрос (считаем уникальными, без справочника)&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1500" y="1100" width="200" height="30" as="geometry" />
+        <mxCell id="G9nCzdTo4ISETFCfbKnU-33" value="&lt;div style=&quot;text-align: left;&quot;&gt;На каждый вопрос можно указать несколько вариантов ответа.&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Считаем, что администратор создаёт уникальные &amp;nbsp;ответы для вопросов (без справочника вопросов)&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1590" y="975" width="200" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="G9nCzdTo4ISETFCfbKnU-35" value="&lt;div style=&quot;text-align: left;&quot;&gt;У одного ответа может быть много продуктов.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Один продукт может относиться ко многим продуктам.&amp;nbsp;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="G9nCzdTo4ISETFCfbKnU-35" value="&lt;div style=&quot;text-align: left;&quot;&gt;Для каждого ответа можно определить связь с несколькими продуктами. Продукты могут подходить под разные варианты ответов.&amp;nbsp;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1670" y="1420" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="G9nCzdTo4ISETFCfbKnU-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;startArrow=ERoneToMany;startFill=0;endArrow=ERone;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G9nCzdTo4ISETFCfbKnU-36" target="G9nCzdTo4ISETFCfbKnU-38">
+        <mxCell id="G9nCzdTo4ISETFCfbKnU-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=ERzeroToMany;startFill=0;endArrow=ERmandOne;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G9nCzdTo4ISETFCfbKnU-36" target="G9nCzdTo4ISETFCfbKnU-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="G9nCzdTo4ISETFCfbKnU-36" value="Продукт" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="G9nCzdTo4ISETFCfbKnU-36" value="Продукт" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1370" y="1460" width="160" height="60" as="geometry">
             <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G9nCzdTo4ISETFCfbKnU-38" value="Категория продуктов" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1370" y="1620" width="160" height="60" as="geometry">
+        <mxCell id="G9nCzdTo4ISETFCfbKnU-38" value="Категория продуктов" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1370" y="1694" width="160" height="60" as="geometry">
             <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G9nCzdTo4ISETFCfbKnU-39" value="&lt;div style=&quot;text-align: left;&quot;&gt;У одного продукта может быть одна категория. &amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;У одной категории может быть много продуктов.&amp;nbsp;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1570" y="1570" width="200" height="30" as="geometry" />
+        <mxCell id="G9nCzdTo4ISETFCfbKnU-39" value="&lt;div style=&quot;text-align: left;&quot;&gt;Категория продуктов может содержать большое количество продуктов или не содержать совсем.&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Считаем, что каждый продукт нужно обязательно определить в определенную категорию &amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;(?) Кажется, что необязательно&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1460" y="1560" width="200" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="G9nCzdTo4ISETFCfbKnU-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;startArrow=ERoneToMany;startFill=0;endArrow=ERoneToMany;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G9nCzdTo4ISETFCfbKnU-41" target="G9nCzdTo4ISETFCfbKnU-36">
+        <mxCell id="G9nCzdTo4ISETFCfbKnU-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERzeroToMany;startFill=0;endArrow=ERoneToMany;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G9nCzdTo4ISETFCfbKnU-41" target="G9nCzdTo4ISETFCfbKnU-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="G9nCzdTo4ISETFCfbKnU-41" value="Пакет продуктов" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="881" y="1460" width="160" height="60" as="geometry">
+        <mxCell id="G9nCzdTo4ISETFCfbKnU-41" value="Пакет продуктов" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="880" y="1475" width="160" height="60" as="geometry">
             <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G9nCzdTo4ISETFCfbKnU-43" value="&lt;div style=&quot;text-align: left;&quot;&gt;К одному пакету продуктов может относиться много продуктов.&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Один продукт может относиться ко многим пакетам.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1120" y="1420" width="200" height="30" as="geometry" />
+        <mxCell id="G9nCzdTo4ISETFCfbKnU-43" value="&lt;div style=&quot;text-align: left;&quot;&gt;Пакет продуктов включает в себя много продуктов. В разных пакетах могут содержаться одинаковые продукты.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1090" y="1445" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="G9nCzdTo4ISETFCfbKnU-45" value="&lt;div style=&quot;text-align: left;&quot;&gt;К одной сделке относится один пакет продуктов.&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Один пакет продуктов может относиться ко многим сделкам.&amp;nbsp;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="600" y="1420" width="200" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="G9nCzdTo4ISETFCfbKnU-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=ERoneToMany;startFill=0;endArrow=ERoneToMany;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G9nCzdTo4ISETFCfbKnU-53" target="G9nCzdTo4ISETFCfbKnU-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="G9nCzdTo4ISETFCfbKnU-53" value="Администратор системы" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1250" y="800" width="160" height="60" as="geometry">
+        <mxCell id="G9nCzdTo4ISETFCfbKnU-53" value="Администратор системы" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="330" y="1800" width="160" height="60" as="geometry">
             <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G9nCzdTo4ISETFCfbKnU-55" value="&lt;div style=&quot;text-align: left;&quot;&gt;У одного администратора может быть много форм опросников.&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;У одной формы опросника может быть много администраторов.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1080" y="950" width="200" height="30" as="geometry" />
+        <mxCell id="G9nCzdTo4ISETFCfbKnU-57" value="&lt;div style=&quot;text-align: left;&quot;&gt;Дилерский центр может предлагать большое количество продуктов. Продукты в разных дилерских центрах могут повторяться.&amp;nbsp;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1060" y="1610" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="G9nCzdTo4ISETFCfbKnU-57" value="&lt;div style=&quot;text-align: left;&quot;&gt;У одного дилерского центра может быть много продуктов.&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;У одного продукта может быть много центров.&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1110" y="1570" width="200" height="30" as="geometry" />
+        <mxCell id="G9nCzdTo4ISETFCfbKnU-59" value="&lt;div style=&quot;text-align: left;&quot;&gt;У одного типа сделки может быть несколько форм опросника, потому что на форму опросника может влиять и информация о клиенте.&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Форма опросника может соотноситься с несколькими типами сделок. &amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="540" y="820" width="260" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="G9nCzdTo4ISETFCfbKnU-59" value="&lt;div style=&quot;text-align: left;&quot;&gt;У одной формы опросника может быть один тип сделки.&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;(? возможно много типов)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;У одного типа сделки может быть много опросников.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="540" y="870" width="200" height="30" as="geometry" />
+        <mxCell id="G9nCzdTo4ISETFCfbKnU-78" value="&lt;div style=&quot;text-align: left;&quot;&gt;Администратор может привязать к определенному типу сделки неограниченное количество продуктов. Одни и те же продукты могут относиться к разным типам сделок. &amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="470" y="610" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="G9nCzdTo4ISETFCfbKnU-83" value="Каждая сделка обязательно включает в себя продукты. Одни и те же продукты могут относиться к разным сделкам.&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="535" y="1360" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G9nCzdTo4ISETFCfbKnU-84" value="Опросники заполняются по определенной форме. По одной и той же форме может быть заполнено много опросников.&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1000" y="1180" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="G9nCzdTo4ISETFCfbKnU-85" value="В заполненном опроснике содержаться много ответов.&lt;br&gt;Считаем, что каждый ответ уникальный, поэтому каждый ответ соотносим с определенным опричником.&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1300" y="1260" width="200" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
